@@ -33,8 +33,8 @@ jobs:
           push: true
           platforms: linux/amd64
           tags: |
-            ${{ secrets.DOCKERHUB_USERNAME }}/weather_backend:latest
-            ${{ secrets.DOCKERHUB_USERNAME }}/weather_backend:${{ github.sha }}
+            suyash0405/weather_backend:latest
+            suyash0405/weather_backend:${{ github.sha }}
 
       - name: Image info
         run: |
