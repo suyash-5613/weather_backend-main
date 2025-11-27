@@ -1,0 +1,14 @@
+# Backend .dockerignore
+target/
+.git
+.gitignore
+README.md
+*.md
+.DS_Store
+.vscode
+.idea
+*.iml
+*.ipr
+*.iws
+Dockerfile
+.dockerignore
