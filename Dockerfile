@@ -1,5 +1,5 @@
 # Backend Dockerfile for Spring Boot Weather App
-FROM openjdk:21-jdk-slim
+FROM eclipse-temurin:21-jdk
 
 # Install curl for healthcheck
 RUN apt-get update && apt-get install -y curl && rm -rf /var/lib/apt/lists/*
